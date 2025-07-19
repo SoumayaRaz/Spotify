@@ -1,7 +1,6 @@
 # 🎧 Spotify Top Tracks (2000–2022): Unsupervised Machine Learning Analysis
 
 ![Python](https://img.shields.io/badge/Python-3.9-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 
 > 🔍 A deep dive into two decades of top-charting music using unsupervised learning techniques.
@@ -70,24 +69,9 @@ This project analyzes Spotify's **Top 100 Tracks per Year (2000–2022)** using 
 
 ---
 
-## 🚀 Future Work
-
-- 🎯 Apply supervised learning to predict genre or popularity
-- 📝 Use NLP on lyrics or song titles
-- 📊 Perform time-series analysis to forecast trends
-- 🌍 Incorporate regional or global charts for broader context
-
----
-
 ## 👨‍🔬 Authors
 
 Ricardo Fernandez | Sarra Mahmoudi | Chenjie Qian | Soumiya Razzouk | Daniel Teran
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
@@ -95,10 +79,9 @@ This project is licensed under the [MIT License](LICENSE).
 
 ```bash
 .
-├── data/                # Raw and processed dataset
-├── notebooks/           # Jupyter notebooks for analysis
-├── src/                 # Source code and helper functions
-├── visuals/             # Graphs and plots for PCA, clustering
-├── README.md            # This file
-└── requirements.txt     # Dependencies
+├── docs/                           # Graphs and plots for PCA, clustering
+├── Notebook                        # Jupyter notebooks for analysis
+├── README.md                       # Project Overview
+├── Report.pdf                      # Project Report
+└── playlist_2010to2022.csv         # Raw dataset
 ****
